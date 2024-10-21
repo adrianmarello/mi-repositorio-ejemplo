@@ -1,0 +1,84 @@
+[
+  {
+    "id": 1,
+    "nombreSuperheroe": "Spiderman",
+    "nombreReal": "Peter Parker",
+    "nombreSoiedad": "Vigilante",
+    "edad": 25,
+    "planetaOrigen": "Tierra",
+    "debilidad": "Radioactiva",
+    "poder": [
+      "Trepar paredes",
+      "Super fuerza",
+      "Sentido arácnido",
+      "Agilidad"
+    ],
+    "habilidadEspecial": "Redes de telaraña",
+    "aliado": [
+      "Ironman"
+    ],
+    "enemigo": [
+      "Duende Verde"
+    ]
+  },
+  {
+    "id": 2,
+    "nombreSuperheroe": "Batman",
+    "nombreReal": "Bruce Wayne",
+    "nombreSoiedad": "Batman",
+    "edad": 50,
+    "planetaOrigen": "Tierra",
+    "debilidad": "Fuego",
+    "poder": [
+      "Super fuerza",
+      "Agilidad"
+    ],
+    "habilidadEspecial": "Super velocidad",
+    "aliado": [
+      "Superman"
+    ],
+    "enemigo": [
+      "Acuaman"
+    ]
+  },
+  {
+    "id": 3,
+    "nombreSuperheroe": "Superman",
+    "nombreReal": "Clark Kent",
+    "nombreSoiedad": "Superman",
+    "edad": 45,
+    "planetaOrigen": "Tierra",
+    "debilidad": "Criptonita",
+    "poder": [
+      "Inteligencia",
+      "Agilidad"
+    ],
+    "habilidadEspecial": "Batimovil",
+    "aliado": [
+      "Batman"
+    ],
+    "enemigo": [
+      "Pinguino"
+    ]
+  },
+  {
+    "id": 4,
+    "nombreSuperheroe": "Thor",
+    "nombreReal": "Thor",
+    "nombreSoiedad": "Vigilante",
+    "edad": 100,
+    "planetaOrigen": "Asgard",
+    "debilidad": "Hielo",
+    "poder": [
+      "Super fuerza",
+      "Dios"
+    ],
+    "habilidadEspecial": "Martillo de Thor",
+    "aliado": [
+      "Avengers"
+    ],
+    "enemigo": [
+      "Loki"
+    ]
+  }
+]

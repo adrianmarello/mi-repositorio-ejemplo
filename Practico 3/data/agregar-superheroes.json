@@ -1,0 +1,15 @@
+[
+  {
+    "id": 4,
+    "nombreSuperheroe": "Thor",
+    "nombreReal": "Thor",
+    "nombreSoiedad": "Vigilante",
+    "edad": 100,
+    "planetaOrigen": "Asgard",
+    "debilidad": "Hielo",
+    "poder": ["Super fuerza", "Dios"],
+    "habilidadEspecial": "Martillo de Thor",
+    "aliado": ["Avengers"],
+    "enemigo": ["Loki"]
+  }
+]
