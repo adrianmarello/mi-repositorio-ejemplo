@@ -1,7 +1,6 @@
 const mongoose = require('mongoose');
 
 const url1 = 'mongodb+srv://Grupo-20:grupo20@cursadanodejs.ls9ii.mongodb.net/Node-js?retryWrites=true&w=majority';
-const url2 = 'mongodb+srv://adrianmarello:xCm1vg3OChZaAinR@cluster0.gocuh.mongodb.net/Node-js?retryWrites=true&w=majority&appName=Cluster0';
 
 mongoose.connect(url1)
 .then(() => console.log('Conectado a la base de datos'))
