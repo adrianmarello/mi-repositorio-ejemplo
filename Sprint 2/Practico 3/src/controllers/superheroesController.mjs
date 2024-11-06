@@ -24,8 +24,8 @@ export async function obtenerTodosLosSuperheroesController(req, res) {
 export async function buscarSuperheroePorAtributoController(req, res) {
   const { atributo, valor } = req.params;
   const superheroes = await buscarSuperheroePorAtributo(atributo, valor);
-  if(superheroe.length > 0) {
-    res.send(superheroe);
+  if(superheroes.length > 0) {
+    res.send(superheroes);
   } else {
     res.status(404).json({ mensaje: 'No se encontraron superheroes con ese atributo' });
   }1

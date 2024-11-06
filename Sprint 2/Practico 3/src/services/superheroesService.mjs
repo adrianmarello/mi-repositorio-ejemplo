@@ -1,9 +1,14 @@
+import mongoose from "mongoose";
 import SuperHeroRepository from "../repositories/superHeroRepository.mjs";
 
 const superHeroRepository = new SuperHeroRepository();
 
 export async function obtenerSuperheroePorId(id) {
-  return await superHeroRepository.obtenerPorId(id);
+  if(id.length === 24) {
+    return await superHeroRepository.obtenerPorId(id);
+  } else {
+    return null;
+  }
 }
 
 export async function obtenerTodosLosSuperheroes() {
